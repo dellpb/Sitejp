@@ -1,16 +1,29 @@
-# React + Vite
+Portal Turístico de João Pessoa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site feito com React e Vite para apresentar os pontos turísticos e a gastronomia de João Pessoa - PB.
 
-Currently, two official plugins are available:
+O que tem no site
+Menu com rolagem suave
+Seção inicial com botão "Explorar Cidade"
+Atrações: Farol do Cabo Branco, Praia de Tambaú e Pôr do Sol no Jacaré
+Gastronomia: Carne de Sol, Peixada Parahybana e Rubacão
+Formulário de contato e rodapé
+Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React, Vite, HTML, CSS e JavaScript.
 
-## React Compiler
+Como rodar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Precisa do Node.js instalado.
 
-## Expanding the ESLint configuration
+bash
+git clone https://github.com/dellpb/Sitejp.git
+cd Sitejp
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Abra http://localhost:5173/ no navegador.
+
+Autor
+
+DellCyber - delosmarlacerda98@gmail.com
